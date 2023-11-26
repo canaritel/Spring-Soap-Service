@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.0 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2023.11.26 a las 06:55:03 PM WET 
+
+  -->
+      
+    <bindings xmlns:tns="http://www.canaritel.es/springsoap/gen" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="es.televoip.wsdl"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="tns:getCountryRequest">
+                  
+            <class ref="es.televoip.wsdl.GetCountryRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getCountryResponse">
+                  
+            <class ref="es.televoip.wsdl.GetCountryResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:country">
+                  
+            <class ref="es.televoip.wsdl.Country"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:currency">
+                  
+            <typesafeEnumClass ref="es.televoip.wsdl.Currency"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>

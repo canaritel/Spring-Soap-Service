@@ -1,0 +1,80 @@
+<SOAP-ENV:Envelope
+	xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP-ENV:Header />
+	<SOAP-ENV:Body>
+		<ns2:getCountryResponse
+			xmlns:ns2="http://www.baeldung.com/springsoap/gen">
+			<ns2:country>
+				<ns2:name>Spain</ns2:name>
+				<ns2:population>46704314</ns2:population>
+				<ns2:capital>Madrid</ns2:capital>
+				<ns2:currency>EUR</ns2:currency>
+			</ns2:country>
+
+			<ns2:country>
+				<ns2:name>France</ns2:name>
+				<ns2:population>65432378</ns2:population>
+				<ns2:capital>Paris</ns2:capital>
+				<ns2:currency>EUR</ns2:currency>
+			</ns2:country>
+
+			<!-- Añadir más países aquí -->
+			<!-- Ejemplo para 8 países adicionales -->
+			<ns2:country>
+				<ns2:name>Germany</ns2:name>
+				<ns2:population>83149300</ns2:population>
+				<ns2:capital>Berlin</ns2:capital>
+				<ns2:currency>EUR</ns2:currency>
+			</ns2:country>
+
+			<ns2:country>
+				<ns2:name>Italy</ns2:name>
+				<ns2:population>60317116</ns2:population>
+				<ns2:capital>Rome</ns2:capital>
+				<ns2:currency>EUR</ns2:currency>
+			</ns2:country>
+
+			<ns2:country>
+				<ns2:name>United Kingdom</ns2:name>
+				<ns2:population>66647112</ns2:population>
+				<ns2:capital>London</ns2:capital>
+				<ns2:currency>GBP</ns2:currency>
+			</ns2:country>
+
+			<ns2:country>
+				<ns2:name>Canada</ns2:name>
+				<ns2:population>37589262</ns2:population>
+				<ns2:capital>Ottawa</ns2:capital>
+				<ns2:currency>CAD</ns2:currency>
+			</ns2:country>
+
+			<ns2:country>
+				<ns2:name>Australia</ns2:name>
+				<ns2:population>25499884</ns2:population>
+				<ns2:capital>Canberra</ns2:capital>
+				<ns2:currency>AUD</ns2:currency>
+			</ns2:country>
+
+			<ns2:country>
+				<ns2:name>Japan</ns2:name>
+				<ns2:population>126476461</ns2:population>
+				<ns2:capital>Tokyo</ns2:capital>
+				<ns2:currency>JPY</ns2:currency>
+			</ns2:country>
+
+			<ns2:country>
+				<ns2:name>Brazil</ns2:name>
+				<ns2:population>211000000</ns2:population>
+				<ns2:capital>Brasília</ns2:capital>
+				<ns2:currency>BRL</ns2:currency>
+			</ns2:country>
+
+			<ns2:country>
+				<ns2:name>India</ns2:name>
+				<ns2:population>1352617328</ns2:population>
+				<ns2:capital>New Delhi</ns2:capital>
+				<ns2:currency>INR</ns2:currency>
+			</ns2:country>
+		</ns2:getCountryResponse>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
