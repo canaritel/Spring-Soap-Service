@@ -11,7 +11,6 @@ import es.televoip.wsdl.GetCountryResponse;
 @Endpoint
 public class CountryEndpoint {
 
-	//private static final String NAMESPACE_URI = "http://www.baeldung.com/springsoap/gen";
 	private static final String NAMESPACE_URI = "http://www.canaritel.es/springsoap/gen";
 
 	private CountryRepository countryRepository;
