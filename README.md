@@ -1,5 +1,4 @@
 # Spring-Soap-Service
-Consumo de ceación de una API Soap y exposición del mismo
 
 Este proyecto es un servicio web SOAP implementado utilizando Spring Boot. Proporciona una interfaz simple para obtener información sobre países, como el nombre, la capital, la moneda y la población.
 
