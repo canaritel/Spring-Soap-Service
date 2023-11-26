@@ -23,5 +23,9 @@ Este proyecto es un servicio web SOAP implementado utilizando Spring Boot. Propo
 - Para SOAP importar de esta dirección: http://localhost:8080/ws/countries.wsdl
 * Debes introducir capitales en inglés:  Spain, France, ..
 
+
+![image](https://github.com/canaritel/Spring-Soap-Service/assets/57302177/cda4e7fc-ca75-4ce2-aeb7-c5fabc63ff7b)
+
+
 ![image](https://github.com/canaritel/Spring-Soap-Service/assets/57302177/501877a0-2037-4beb-980e-2665317fd627)
 
