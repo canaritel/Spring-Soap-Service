@@ -18,3 +18,10 @@ Este proyecto es un servicio web SOAP implementado utilizando Spring Boot. Propo
 * Requisitos Previos
 - Java 11 instalado y configurado.
 - Maven para la gestión de dependencias y construcción del proyecto.
+
+## Configuración SoapUI
+- Para SOAP importar de esta dirección: http://localhost:8080/ws/countries.wsdl
+* Debes introducir capitales en inglés:  Spain, France, ..
+
+![image](https://github.com/canaritel/Spring-Soap-Service/assets/57302177/501877a0-2037-4beb-980e-2665317fd627)
+
